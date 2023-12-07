@@ -1,0 +1,134 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('images/bg.jpg') center/cover fixed;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 100 auto;
+
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+
+nav h1 {
+    margin: 0;
+
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-align: left;
+
+}
+
+header {
+    background: #f4f4f4;
+    padding: 4px 0;
+    text-align: right;
+    background-color: #75ba93;
+}
+
+header h2 {
+    font-size: 25px;
+    color: #333;
+     
+}
+
+header p{
+    font-size: 25px;
+}
+
+section {
+    padding: 40px 0;
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .2);
+    backdrop-filter: blur(10px);
+    color: #fff;
+    border-radius: 20px; 
+}
+ a {
+      color: white;
+      text-decoration: none;
+      padding: 10px;
+      position: relative;
+      transition: color 0.3s ease-out; 
+    }
+
+.glow {
+      position: relative;
+      animation: glowAnimation 1s infinite alternate;
+    }
+
+    
+    @keyframes glowAnimation {
+      from {
+        text-shadow: 0 0 10px #3498db, 0 0 20px #3498db, 0 0 30px #3498db;
+      }
+      to {
+        text-shadow: 0 0 20px #3498db, 0 0 30px #3498db, 0 0 40px #3498db;
+      }
+    }
+
+section h2 {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px; /* Adjust as needed */
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+    overflow: hidden;
+    padding: 10px; /* Adjust as needed */
+}
+
